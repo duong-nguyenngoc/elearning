@@ -1,0 +1,45 @@
+/* styles/reset.css */
+
+/* Remove margins, paddings, and borders */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a consistent line-height */
+body {
+    line-height: 1.5;
+}
+
+/* Set a default font-family */
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* List styles */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Remove quotes from blockquotes */
+blockquote {
+    quotes: none;
+}
+
+/* Remove underline from links */
+a {
+    text-decoration: none;
+}
+
+/* Set a default color for links */
+a {
+    color: inherit;
+}
+
+/* Ensure images are responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
